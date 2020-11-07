@@ -3,13 +3,14 @@ import './Navbar.css'
 
 function Navbar (props) {
     return(
-        <div>
+        <nav>
+            <h1>logo</h1>
             <ul>
                 <li className="navItems">Home</li>
                 <li className="navItems">Blog</li>
                 <li className="navItems">Github</li>
             </ul>
-        </div>
+        </nav>
     )
 }
 
