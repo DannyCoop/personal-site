@@ -1,8 +1,13 @@
 .cards{
     border-radius: 23px;
-    background-color: wheat;
+    background-color: darkgray;
     width: 80%;
     height: 320px;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.cards{
+    align-self: center;
 }
