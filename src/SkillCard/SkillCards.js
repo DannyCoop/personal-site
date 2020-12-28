@@ -1,11 +1,9 @@
 import React from 'react'
 
-function SkillCards () {
+function SkillCards (props) {
     return(
         <div>
-            Skills (icons)
-            javascript
-            ruby
+            {props.skill}
         </div>
     )
 }
