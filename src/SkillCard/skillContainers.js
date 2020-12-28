@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import SkillCards from './SkillCards';
+import './skillContainer.css'
 
 function SkillContainer(){
     const [skills, setSkills] = useState(["JavaScript", "ruby"])
@@ -11,7 +12,7 @@ function SkillContainer(){
     }
 
     return(
-        <div>
+        <div className= "skill-container">
             {showSkills()}
         </div>
     )
