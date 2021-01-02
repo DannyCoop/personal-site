@@ -5,6 +5,7 @@ import SkillContainer from '../SkillCard/skillContainers'
 
 
 function About (props) {
+    // Need to see if I'm able to push
     return(
         <div>
             <h2>Welcome to Coop's place</h2><br/>
