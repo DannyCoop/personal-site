@@ -15,6 +15,10 @@ function About (props) {
                 <h4>Tribe</h4>
                 <textarea>Tribe is the project that I've been working on lately.Tribe is a reboot of my final project Family center that I was able to get some friends to help me with.</textarea>
             </div>
+            <div>
+                <h3>interest </h3>
+                <textarea>I'm really in to games and hanging out with my friends. I was able to join  a hackathon and i plan on doing more.</textarea>
+            </div>
             <div className="Projects">
                 <CardContainer/>
             </div>
