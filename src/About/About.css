@@ -2,3 +2,11 @@ div{
     display: flex;
     flex-direction: column;
 }
+
+.current_project{
+    background-color: darkgray;
+}
+
+.interest{
+    background-color: darkgray;
+}
