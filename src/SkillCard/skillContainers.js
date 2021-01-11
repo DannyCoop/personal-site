@@ -3,7 +3,7 @@ import SkillCards from './SkillCards';
 import './skillContainer.css'
 
 function SkillContainer(){
-    const [skills, setSkills] = useState(["JavaScript", "ruby"])
+    const [skills, setSkills] = useState(["JavaScript", "Ruby", "TypeScript", "react", ])
 
     const showSkills = () => {
         return skills.map(skill => <SkillCards
