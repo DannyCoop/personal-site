@@ -4,9 +4,15 @@ div{
 }
 
 .current_project{
+    justify-content: center;
     background-color: darkgray;
 }
 
 .interest{
     background-color: darkgray;
+}
+.current_project p{
+    width: 400px;
+    text-align: left;
+    align-self: center;
 }
