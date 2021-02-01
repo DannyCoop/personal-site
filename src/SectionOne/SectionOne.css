@@ -1,0 +1,15 @@
+.SectionOne-Text{
+    text-align: left;
+    width: 400px;
+}
+.SectionOne-Text h3 {
+    text-align: center;
+}
+.SectionOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.SectionOne-Picture{
+    width: 400px;
+}
